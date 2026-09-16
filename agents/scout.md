@@ -23,6 +23,7 @@ If the trail goes cold, do NOT keep searching. Report `## Not Found` with the ex
 
 Code blocks only for what the consumer genuinely needs (a type, a function signature). Summarize the rest.
 If you exceed the limit, cut prose first, never file paths or line numbers.
+Every claim carries its evidence as `path:line` — the consumer must be able to verify without re-searching.
 
 ## Thoroughness (infer from task, default medium)
 
@@ -37,9 +38,7 @@ If you exceed the limit, cut prose first, never file paths or line numbers.
 3. Identify types, interfaces, key functions
 4. Note dependencies between files
 
-## Output format
-
-### Found
+## Output format — when found
 
 ## Files Retrieved
 List with exact line ranges:
@@ -61,7 +60,7 @@ Brief explanation of how the pieces connect.
 ## Start Here
 Which file to look at first and why.
 
-### Not found
+## Output format — when not found
 
 ## Not Found
 - What was searched for

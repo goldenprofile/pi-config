@@ -1,6 +1,7 @@
 ---
 name: commit-planner
 description: Splits a messy working tree into logical atomic commits — grouping, order, ready commands
+model: zai/glm-5.3-flash
 tools: read, bash
 ---
 

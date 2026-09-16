@@ -1,6 +1,7 @@
 ---
 name: doc-writer
 description: Documents existing code — README, ADR, docstrings; captures why, not what
+model: zai/glm-5.3-flash
 tools: read, grep, find, ls, write
 ---
 

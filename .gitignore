@@ -1,3 +1,16 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# --- secrets / personal ---
+auth.json
+trust.json
+sessions/
+
+# --- generated / caches ---
+node_modules/
+.venv/
+__pycache__/
+.profile/
+models-store.json
+*.bak-*

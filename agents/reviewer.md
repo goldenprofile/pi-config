@@ -1,6 +1,7 @@
 ---
 name: reviewer
 description: Code review specialist — quality, security, maintainability; runs change-type checklists first
+model: zai/glm-5.3-flash
 tools: read, grep, find, ls, bash
 ---
 

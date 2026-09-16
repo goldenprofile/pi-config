@@ -1,0 +1,26 @@
+{
+  "lastChangelogVersion": "0.85.1",
+  "enableInstallTelemetry": false,
+  "defaultProvider": "zai",
+  "defaultModel": "glm-5.3",
+  "skills": [
+    "~/.claude/plugins/marketplaces/goldenprofile/skills",
+    "!aiogram-bot-auditor",
+    "!advanced-seo-optimizer",
+    "!dependency-auditor",
+    "!django-audit",
+    "!fastapi-architect",
+    "!harness-engineering",
+    "!make-interfaces-feel-better",
+    "!migration-safety-auditor",
+    "!postgres-performance",
+    "!python-project-audit",
+    "!test-coverage-auditor",
+    "!ui-dna",
+    "!vps-ops"
+  ],
+  "packages": [
+    "git:github.com/earendil-works/pi-review",
+    "git:github.com/stargot/pi-extensions/"
+  ]
+}

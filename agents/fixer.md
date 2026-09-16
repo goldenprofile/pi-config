@@ -1,6 +1,7 @@
 ---
 name: fixer
 description: Applies review findings minimally and precisely — no scope creep, re-checks after fixing
+model: zai/glm-5.3-flash
 tools: read, grep, bash, edit, write
 ---
 

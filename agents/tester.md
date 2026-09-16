@@ -1,6 +1,7 @@
 ---
 name: tester
 description: Writes and runs tests for a named module until green — or reports what blocks green
+model: zai/glm-5.3-flash
 tools: read, grep, bash, edit, write
 ---
 

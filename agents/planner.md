@@ -1,6 +1,7 @@
 ---
 name: planner
 description: Creates implementation plans with per-step acceptance criteria from context and requirements
+model: zai/glm-5.3-flash
 tools: read, grep, find, ls, bash
 subagents: scout
 ---
@@ -24,10 +25,12 @@ Output format:
 One sentence summary of what needs to be done.
 
 ## Plan
-Numbered steps, each small and actionable, each with an acceptance criterion:
-1. Step one - specific file/function to modify.
+Numbered steps, each small and actionable, each with an acceptance criterion.
+Mark every step `P` (parallelizable — may run alongside the previous ones) or `S` (sequential — needs an earlier step's result): the orchestrator fans `P` steps out to parallel workers.
+Each step must fit one worker session (one sitting) — if it can't, split it.
+1. `[P]` Step one - specific file/function to modify.
    - Done when: <observable check — test passes, grep finds X, page renders>
-2. Step two - what to add/change.
+2. `[S]` Step two - what to add/change.
    - Done when: <...>
 
 ## Files to Modify
