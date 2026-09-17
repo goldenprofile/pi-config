@@ -43,7 +43,7 @@ PRIME.md                # протокол always-on оркестратора
 extensions/             # prime-protocol, ask-user-question, browser,
                         # web-fetch, prompt-snippets, custom-header,
                         # herdr-agent-state (managed by herdr), vlt-bridge
-prompts/                # шаблоны сессий (implement, scout-and-plan, …)
+prompts/                # шаблоны сессий (/plan — разведка+план без реализации)
 skills/                 # analyze-sessions, pdf-reader, web-debug, youtube-transcript
 settings.json           # провайдер/модель по умолчанию, скиллы, пакеты
 npm/                    # манифесты pi-пакетов (ставятся через pi install)
